@@ -5,7 +5,7 @@
 // 
 // Create Date: 09/20/2024 02:32:06 PM
 // Design Name: 
-// Module Name: top_2bit_tb
+// Module Name: top_adder
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 

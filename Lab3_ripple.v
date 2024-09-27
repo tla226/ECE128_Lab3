@@ -18,34 +18,7 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-/*
-// carryout adder
-module Lab3_carryout(
-input [1:0] a,
-input [1:0] b,
-output [6:0] seg
-    );
-wire [2:0] w_c;
-wire [1:0] w_g, w_p, w_s;
-
-assign w_g[0] = a[0] & b[0];
-assign w_g[1] = a[1] & b[1];
-
-assign w_p[0] = a[0]^b[0];
-assign w_p[1] = a[1]^b[1];
-
-assign w_c[0] = 1'b0;
-assign w_c[1] = w_g[0] | (w_p[0] & w_c[0]);
-assign w_c[2] = w_g[1] | (w_p[1] & w_c[1]);
-
-
-FA_1bit uut1(a[0],b[0],w_c[0],w_c[1],w_s[0]);
-FA_1bit uut2(a[1],b[1],w_c[1],w_c[2],w_s[1]);
-
-assign cout = w_c[2];
-    
-endmodule
-*/
+/
 
 //ripple carry adder
 module top_adder(
